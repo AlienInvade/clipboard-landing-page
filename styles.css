@@ -26,25 +26,127 @@ body {
     flex-direction: column;
     text-align: center;
     line-height: 1.5;
+    color: var(--Grayish-Blue);
 }
 
 main {
     margin: 0 5em;
 }
 
+
 header {
+    background-image: url(./images/logo.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 32%;
+    background-size: 6em;
     margin-bottom: 40px;
+}
+
+header h1, h2 {
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+header p {
+    margin: 0 23.5em;
+    font-size: 0.93em;
+}
+
+p {
+    font-size: 0.93em;
+}
+
+#one .color-p {
+    margin: 10px 20.5em;
+    font-size: 0.93em;
+}
+
+.computer {
+    margin: 5em 0;
+    text-align: left;
+    margin-right: 3em;
+}
+
+.computer img {
+    float: left;
+    padding: 0 5em;
+}
+
+.computer p {
+    margin-top: 3em;
+}
+
+.one1 {
+    padding-top: 5em;
+}
+
+.two2 {
+    font-size: 0.8em;
+}
+
+#two p {
+    margin: 10px 20em;
+    margin-bottom: 5em;
+}
+
+.tools {
+    margin: 5em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.tools div img {
+    margin: 2em 0;
+}
+
+.tools-one {
+    margin: -0.5em 0;
+    width: 350px;
+}
+
+.tools-two {
+    width: 370px;
+}
+
+.tools-three {
+    width: 360px;
+}
+
+.logo {
+    margin: 10em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.logo img {
+    display: inline-block;
+    width: 9.5em;
+    height: 30px;
+}
+
+
+
+
+
+span {
+    display: block;
+    font-size: 0.93em;
+    padding-top: 10px;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
 }
 
 section {
     margin: 30px 0;
 }
 
-.color-p {
-    color: var(--Dark-Grayish-Blue);
-}
-
 .bold {
+    font-size: 18px;
+    color: var(--Dark-Grayish-Blue);
     font-weight: 600;
 }
 
