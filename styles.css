@@ -86,6 +86,10 @@ p {
     font-size: 0.8em;
 }
 
+#two {
+    margin-top: 15.5em;
+}
+
 #two p {
     margin: 10px 20em;
     margin-bottom: 5em;
@@ -124,8 +128,8 @@ p {
 
 .logo img {
     display: inline-block;
-    width: 9.5em;
-    height: 30px;
+    width: 100px;
+    height: 40px;
 }
 
 
