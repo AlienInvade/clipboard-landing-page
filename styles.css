@@ -29,9 +29,6 @@ body {
     color: var(--Grayish-Blue);
 }
 
-main {
-    margin: 0 5em;
-}
 
 
 header {
@@ -66,12 +63,13 @@ p {
 .computer {
     margin: 5em 0;
     text-align: left;
-    margin-right: 3em;
+    margin-right: 19em;
 }
 
 .computer img {
     float: left;
     padding: 0 5em;
+    padding-left: 0;
 }
 
 .computer p {
@@ -176,7 +174,7 @@ button {
 
 footer {
     background-color: var(--Grayish-Blue);
-    background-image: url(./images/logo.svg);
+
     background-repeat: no-repeat;
     background-position: 10% 50%;
     background-size: 4em;
@@ -211,11 +209,7 @@ li a {
     text-decoration: none;
 }
 
-li:hover a {
-    cursor: pointer;
-    color: var(--Strong-Cyan);
-    background-color: var(--Strong-Cyan);
-}
+
 
 .attribution { 
     font-size: 11px; 
