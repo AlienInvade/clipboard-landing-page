@@ -20,7 +20,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: (https://alieninvade.github.io/Four-Card-Feature/)
+- Live Site URL: (https://alieninvade.github.io/clipboard-landing-page/)
 
 ### Built with
 
